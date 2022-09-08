@@ -21,8 +21,8 @@ veggy <- cabbages
  
 ### Is there a difference in average VitC between c39 and c52 cultivation methods?  
 
-$H_0$: There is no difference between VitC 
-$H_A$: The alternative of what nicole said
+$H_0$: There is no difference between the average VitC between C39 and C52.  
+$H_A$: The alternative is there is a significant difference between the average VitC between C39 and C52.
 
 # Methods
 
@@ -45,7 +45,8 @@ The explanatory variable is which cultivation method, it is categorical
 boxplot(VitC~Cult,data=veggy)
 ```
 
-This box plot shows C52  produces more VitC than C39. 
+This box plot shows C52  produces more VitC than C39. The 75th percentile of C52 is 70 and the 25th percentile is about 58. The 75th percentile of C39 is 55 and the 25th percentile is 45. 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
